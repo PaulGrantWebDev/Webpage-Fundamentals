@@ -84,3 +84,17 @@ li:nth-child(3) {
 } */
 
 /* you can also do odd and even for nth-child() */
+
+/*****Style Links*****/
+a:link,
+a:visited {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline dotted orangered;
+}
