@@ -3,6 +3,7 @@
   padding: 0;
 }
 
+/*****Page Sections*****/
 body {
   font-family: sans-serif;
   color: #444;
@@ -41,6 +42,7 @@ aside {
   width: 500px;
 }
 
+/*****Smaller elements*****/
 h1,
 h2,
 h3 {
@@ -108,6 +110,20 @@ li:last-child {
   list-style: none;
 }
 
+.post-image {
+  width: 100%;
+}
+
+nav a:link {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 30px;
+}
+
+nav a:link:last-child {
+  margin-right: 0;
+}
+
 /* li:first-child {
   font-weight: bold;
 }
@@ -134,8 +150,4 @@ a:active {
   color: orangered;
   font-weight: bold;
   text-decoration: underline dotted orangered;
-}
-
-.post-image {
-  width: 100%;
 }
