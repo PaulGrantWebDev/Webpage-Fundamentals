@@ -194,7 +194,7 @@ a:active {
 }
 
 /*****Using Floats*****/
-.author-img {
+/* .author-img {
   float: left;
   margin-bottom: 20px;
 }
@@ -211,13 +211,13 @@ h1 {
 
 nav {
   float: right;
-}
+} */
 
 /* .clear {
   clear: both;
 } */
 
-.clearfix::after {
+/* .clearfix::after {
   clear: both;
   content: "";
   display: block;
@@ -235,4 +235,4 @@ aside {
 
 footer {
   clear: both;
-}
+} */
